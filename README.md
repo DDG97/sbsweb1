@@ -1,2 +1,3 @@
 # sbsweb1
 웹 1 클래스
+웹사이트 구동, 웹사이트의 디자인, 콘텐츠  - 프론트엔드 HTML CSS Javascript JQuery  서버의 구동, 서버의 디자인, 콘텐츠 - 백엔드 Java, Python >> Spring, Django   HTML, CSS, JavaScript -> 프론트엔드의 기본  HTML : HyperText Markup Language -> 웹사이트의 구조를 작성하는 언어  CSS: Cascading Style Sheet -> 웹사이트의 디자인을 작성하는 언어  JavaScript + JQuery -> 웹사이트의 동작을 작성하는 언어  Version Control system -> 버전(형상) 관리도구 - GitHub : 코드관리, 코드의 버전 관리  Web Security Knowledge : 웹 보안 지식 - HTTPS : 보안성이 있는 웹사이트 - CORS : 웹사이트간 통신의 보안  —————  JavaScript -> Node.js, React.js, Vue.Js, Angular.js  Package Managers : 확장기능을 사용하기 위한 간편 프로그램  Modern CSS : CSS3의 추가된 문법, 확장기능  CSS Framework   ——————  Java 와 Java Script 는 엄연히 다른 언어임  Java -> 백엔드에서 사용하는 언어 ex) 안드로이드 폰, 단순한 컴퓨터 앱  Java Script -> 프론트엔드 + 백엔드에서 사용하는 언어 - 웹 구동 언어
