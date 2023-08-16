@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>배송정보</legend>
+            <Label for="name">
+                성명
+                <input type="text" id="name" autofocus required oninvalid="this.setCustomValidity('성명은 필수 입력 사항 입니다!')">
+            </Label>
+            <br/>
+            <label for="adress">
+                주소
+                <input type="adress" id="adress">
+            </label>
+            <br/>
+            <label for="receipt">
+                주문번호
+            <input type="text" id="receipt" value="123" readonly disabled>
+        </label>
+        <br/>
+        <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
