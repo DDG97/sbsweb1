@@ -1,9 +1,86 @@
 @charset "utf-8";
 
+#div1 {
+    border:1px dotted black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left :0.5px;
+    margin-right: 0.5px;
+    margin-bottom: 20px;
+}
+
+#div2 {
+    border:1px dotted black;
+    margin-bottom: 20px;
+}
+
+#div3 {
+    border:1px dotted black;
+    height: 365px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+table {
+    border:1px solid black;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding:0px;
+    width: 400px;
+    height: 150px;
+}
+
+tbody {
+    height: 180px;
+}
+
+th {
+    border:1px solid black;
+    background-color: grey ;
+    height: 35px;
+    text-align: center;
+}
+
+#thc {
+    text-align: center;
+    font-weight: bold;
+}
+
+#thn {
+    font-weight: normal;
+}
+
+#tdi {
+    text-indent: 8px;
+}
+
+td {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+h1 {
+    margin-top:40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-left:20px;
+}
+
 #b {
     font-weight: bold;
 }
 
 #it {
     font-style: italic;
+}
+
+li {
+    list-style-type: decimal;
 }
