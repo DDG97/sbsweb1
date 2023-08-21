@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+caption {caption-side: bottom;}
+
+table { border: 1px solid coral;
+    border-collapse: collapse;
+}
+
+tr, td { border:1px dashed black; } 
+
+th, td {padding:10px;}
+
+b {text-align: center;}
+
+td {text-align: end;}
+
+td {text-shadow: 3px pink;}
