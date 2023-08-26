@@ -97,10 +97,59 @@ h3 {
     float: left;
 }
 
+ul {
+    float: left;
+}
+
 li {
     float: left;
     margin-top: 32px;
-    margin-left: 65px;
+    margin-left: 50px;
     font-size: 20px;
     font-weight: 600;
+}
+
+
+input {
+    margin-top: 26px;
+    margin-left: 130px;
+    width: 200px;
+    height: 26px;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid gray;
+    border-right: none;
+    float: left;
+}
+
+#img5 {
+    width: 26px;
+    height: 26px;
+    margin-top: 26px;
+    border: 2px solid gray;
+}
+
+.search1 {
+    float: left;
+}
+
+#img6 {
+    width: 140px;
+    margin-top: 25px;
+    margin-left: 0px;
+    float: left;
+}
+
+#img7 {
+    width: 45px;
+    margin-top: 23px;
+    margin-left: 15px;
+}
+
+#img8 {
+    margin-top: 15px;
+    margin-left: -165px;
+    width: 770px;
+    height: 370px;
+    float: left;
 }
