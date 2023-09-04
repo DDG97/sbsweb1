@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section > p {
+    text-decoration: underline;
+}
+
+section p {
+    color: blue;
+}
+
+h1 + h2 {
+    background-color: aquamarine;
+}
+
+h2 ~ p {
+    font-weight: bold;
+}
+
+#menu a[href] {
+    background-color: yellow;
+}
+
+#link a[target="_blank"] {
+    background-color: yellowgreen;
+}
+
+[abc ~="b"] {
+    border: 3px solid black;
+}
+
+[abc|="ab"] {
+    background-color: green;
+}
+
+[abc^="ab"] {
+    color: red;
+}
+
+[lang $="asia"] {
+    background-color: darkcyan;
+}
+
+[href*=".com"] {
+    color: red;
+}
+

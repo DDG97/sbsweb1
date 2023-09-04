@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap section h2:only-of-type {
+    color: red;
+}
+
+#wrap article h2:only-child {
+    color: blue;
+}
+
+#wrap section:first-child {
+    background-color: aquamarine;
+}
+
+#wrap section:first-child ul li:last-child {
+    background-color: coral;
+}
+
+#wrap article:first-of-type {
+    background-color: dodgerblue;
+}
+
+#wrap article:last-of-type {
+    background-color: darkorange;
+}
+
+#wrap section:nth-child(2) {
+    background-color: greenyellow;
+}
+
+#wrap section:nth-child(2) ul li:nth-last-child(3) {
+    color: green;
+    text-decoration: line-through;
+}
+
+#wrap article:nth-of-type(2) {
+    background-color: plum;
+}
+
+#wrap article:nth-of-type(2) ul li:nth-last-of-type(1) {
+    color: purple;
+    font-weight: bold;
+}
+
+#line6 ul li:nth-child(even) {
+    background-color: brown;
+}
+
+#line6 ul li:nth-last-child(odd) {
+    background-color: darkgoldenrod;
+}
+
+#line7 ul li:nth-child(3n+1) {
+    background-color: olive;
+}
+
+#line7 ul li:nth-child(2n) {
+    color: orangered;
+    font-weight: bold;
+}
+
+#line8 p::first-line {
+    text-decoration: underline;
+}
+
+#line8 ul li::first-letter {
+    color: pink;
+    font-weight: bold;
+}
+
+#line8 p::first-letter {
+    color: green;
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    padding-right: 5px;
+}
+
+#line9 ul li.express::after {
+    content: "급행";
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 2px 4px;
+    margin: 0 5px;
+    border-radius: 2px;
+    font-size: 0.5em;
+}
+
+#line9 ul li:not(.express)::before {
+    content: "일반";
+    background-color: olive;
+    color: white;
+    font-weight: bold;
+    padding: 2px 4px;
+    margin: 0 5px;
+    border-radius: 2px;
+    font-size: 0.5em;
+}

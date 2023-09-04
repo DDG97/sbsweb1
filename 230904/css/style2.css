@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#link1 a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#link1 a:visited {
+    color: orange;
+    font-weight: bold;
+}
+
+#text1 p:hover {
+    background-color: aqua;
+}
+
+#link2 a:active {
+    background-color: red;
+}
+
+#link3 a:focus {
+    background-color: greenyellow;
+}
