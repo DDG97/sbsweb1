@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#wrap {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.img1, .img2, .img3 {
+    width: 190px;
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.prodlist {
+    list-style: none;
+}
+
+.prodlist li {
+    float: left;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+#wrap ul li .img1:hover ~ .caption1{
+    transform: translateY(-80px);
+    transition: all 1s;
+}
+
+#wrap ul li .img2:hover ~ .caption2{
+    transform: translateY(-80px);
+    transition: all 1s;
+}
+
+#wrap ul li .img3:hover ~ .caption3{
+    transform: translateY(-80px);
+    transition: all 1s;
+}
+
+.caption1, .caption2, .caption3 {
+    margin-left: 10px;
+    background-color: rgba(160, 160, 160, 0.3);
+}
