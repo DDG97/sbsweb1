@@ -9,6 +9,10 @@
     --color1: rgb(100,200,255);
 }
 
+:root {
+    --color2: green;
+}
+
 div {
     width: 100px;
     height: 100px;
@@ -18,4 +22,37 @@ div {
 
 #box1 {
     background-color: var(--color1);
+}
+
+#box2 {
+    background-color: var(--color1);
+}
+
+#box3 {
+    background-color: var(--color2,yellow);
+}
+
+#box4 {
+    background-color: var(--color3, var(--color2, var(--color1)));
+}
+
+#box5 {
+    background-color: var(--color5);
+}
+
+#box6 {
+    background-color: var(--color5);
+}
+
+#box7 {
+    --b-size:250;
+    width: calc(var(--b-size)*1px);
+    height: calc(var(--b-size)*1px);
+}
+
+
+#imgbox2 {
+    --img: url("../image/맥북.png");
+    background: var(--img);
+    background-size: cover;
 }

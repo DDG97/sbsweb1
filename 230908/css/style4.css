@@ -46,7 +46,7 @@ body {
 
 .circle:nth-child(4) {
     animation: circle-4 4s ease infinite alternate;
-    
+}
 
 .circle:nth-child(5) {
     animation: circle-5 4s ease infinite alternate;

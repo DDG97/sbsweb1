@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --count: 16;
+    --radius: 40;
+    --bigradius: 200;
+}
+
+body {
+    background-color: black;
+}
+
+#wrap {
+    width: calc(var(--bigradius) * 2px);
+    height: calc(var(--bigradius) * 2px);
+    margin: 50px auto;
+    position: relative;
+}
+
+.box {
+    width: calc(var(--radius) * 2px);
+    height: clac(var(--radius) * 2px);
+    border:  3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transform-origin: calc(var(--radius) * 1px) calc(var(--bigradius) * 1px);
+    transform: rotate(calc(360/var(--count) * var(--p) * 1deg));
+
+    top: 0px;
+    left: calc((var(--bigradius) - var(--radius)) * 1px);
+}
+
+@keyframes circle {
+    
+}
