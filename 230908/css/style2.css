@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+div {
+    height: 20px;
+    width: 70px;
+    margin: 30px;
+}
+
+#ease {
+    background-color:aqua;
+    animation: move 5s ease infinite alternate;
+}
+
+#ease-in {
+    background-color:rgb(0, 244, 45);
+    animation: move 5s ease-in infinite alternate;
+}
+
+#ease-out {
+    background-color:rgb(123, 0, 255);
+    animation: move 5s ease-out infinite alternate;
+}
+
+#ease-in-out {
+    background-color:rgb(172, 7, 137);
+    animation: move 5s ease-in-out infinite alternate;
+}
+
+#ease-linear {
+    background-color:rgb(223, 255, 62);
+    animation: move 5s linear infinite alternate;
+}
+
+#cb1 {
+    background-color:rgb(255, 0, 0);
+    animation: move 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite alternate;
+}
+
+#cb2 {
+    background-color:rgb(255, 255, 255);
+    animation: move 5s cubic-bezier(0.19, 1, 0.22, 1) infinite alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translate(0px);
+    }
+    to {
+        transform: translate(400px);
+    }
+}
