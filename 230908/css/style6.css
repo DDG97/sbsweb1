@@ -54,7 +54,7 @@ body {
     }
     to {
         width: calc(var(--radius) * 3px);
-        height: calc(var(--radius) *3px);
+        height: calc(var(--radius) * 3px);
         opacity: 0;
         border-color: black;
     }
