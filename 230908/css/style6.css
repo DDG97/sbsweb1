@@ -36,6 +36,82 @@ body {
     left: calc((var(--bigradius) - var(--radius)) * 1px);
 }
 
+.box :nth-child(1) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(2) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(3) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(4) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(5) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(6) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(7) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(8) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(9) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(10) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(11) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(12) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(13) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(14) {
+    animation-name: circle;
+    animation-duration: 4s infinite;
+}
+
+.box :nth-child(15) {
+    animation-name: circle;
+    animation-duration: infinite;
+    animation-direction: reverse;
+}
+
 @keyframes circle {
     from {
         width: 0;
@@ -58,4 +134,12 @@ body {
         opacity: 0;
         border-color: black;
     }
+}
+
+@keyframes reverse-circle {
+    from {
+        width: calc(var(--radius) * 3px);
+        height: calc(var(--radius) * 3px);
+    }
+
 }
