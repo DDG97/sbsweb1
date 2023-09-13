@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#wrap1 > div {
+    background-color: aqua;
+}
+
+div > div:nth-child(odd) {
+    background-color: greenyellow;
+}
+
+div > div:nth-child(even) {
+    background-color: blueviolet;
+}
+
+#wrap2 {
+    display: grid;
+}
+
+#wrap3 {
+    display: flex;
+}

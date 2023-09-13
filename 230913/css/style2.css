@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#wrap {
+    width: 282px;
+    height: 80px;
+    margin: 200px auto;
+
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    width: 12px;
+    height: 80px;
+    float: left;
+    margin-right: 18px;
+    border-radius: 6px;
+    background-color: white;
+    animation: sizechange 0.75s infinite ease-in-out alternate;
+}
+
+#wrap .bar:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+.bar:nth-child(1) {
+    background-color: blueviolet;
+    animation-delay: 1s;
+}
+.bar:nth-child(2) {
+    background-color: red;
+    animation-delay: 0.8s;
+}
+.bar:nth-child(3) {
+    background-color: fuchsia;
+    animation-delay: 0.6s;
+}
+.bar:nth-child(4) {
+    background-color: orange;
+    animation-delay: 0.4s;
+}
+.bar:nth-child(5) {
+    background-color: yellow;
+    animation-delay: 0.2s;
+}
+.bar:nth-child(6) {
+    background-color: yellow;
+    animation-delay: 0.2s;
+}
+.bar:nth-child(7) {
+    background-color: orange;
+    animation-delay: 0.4s;
+}
+.bar:nth-child(8) {
+    background-color: fuchsia;
+    animation-delay: 0.6s;
+}
+.bar:nth-child(9) {
+    background-color: red;
+    animation-delay: 0.8s;
+}
+.bar:nth-child(10) {
+    background-color: blueviolet;
+    animation-delay: 1s;
+}
+
+@keyframes sizechange {
+    from {
+        height: 80ox;
+    }
+    to {
+        height: 2px;
+    }
+}
