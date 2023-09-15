@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Logo {
+    float: left;
+    width: 80px;
+    height: 30px;
+    margin: 5px auto;
+}
+
+#search {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 40px;
+    border: 2px solid rgb(6, 12, 192);
+}
+
+div > header > .searchb {
+    position: absolute;
+    top:0;
+    right:330px;
+    margin-top: 10px;
+}
