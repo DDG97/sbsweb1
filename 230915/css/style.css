@@ -5,23 +5,218 @@
     padding: 0;
 }
 
-.Logo {
+#container {
+    width: 100%;
+}
+
+header {
+    height: 120px;
+}
+
+#logo {
+    width: 20%;
+    height: 120px;
     float: left;
-    width: 80px;
-    height: 30px;
-    margin: 5px auto;
+}
+
+#logoImg {
+    margin: 34px;
 }
 
 #search {
-    position: relative;
-    margin-top: 10px;
-    margin-left: 40px;
-    border: 2px solid rgb(6, 12, 192);
+    width: 45%;
+    height: 120px;
+    float: left;
 }
 
-div > header > .searchb {
+#searchBox {
+    position: relative;
+    height: 60px;
+    border: 5px solid #003964;
+    background-color: white;
+    margin: 25px 0;
+}
+
+#searchInput {
     position: absolute;
-    top:0;
-    right:330px;
+    height: 45px;
+    width: 80%;
+    margin: 7.5px 15px;
+    font-size: 120%;
+    border: none;
+}
+
+#searchImg {
+    position: absolute;
+    right: 15px;
+    top: 11.5px;
+}
+
+#sub {
+    width: 35%;
+    height: 120px;
+    float: left;
+}
+
+#hamburger {
+    clear: left;
+}
+
+#sub > span {
+    display: block;
+    float: right;
+    height: 30px;
+    margin: 45px 20px;
+}
+
+main {
+    height: 780px;
+    background-color: aqua;
+    clear: right;
+}
+
+aside {
+    width: 300px;
+    height: 780px;
+    background-color: #1a2e48;
+    color: white;
+    float: left;
+}
+
+aside > nav > ul {
+    list-style-type: none;
+    padding-top: 14px;
+    padding-bottom: 110px;
+}
+
+aside > nav > ul > li {
+    font-size: 20px;
+    height: 82px;
+    line-height: 82px;
+    padding-left: 40px;
+}
+
+#info {
+    width: 960px;
+    float: right;
+}
+
+#info > article {
+    width: 400px;
+    height: 180px;
+    padding: 40px;
+    float: left;
+}
+
+#info > article > div > a {
+    text-decoration: none;
+    color: black;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
     margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+
+#info > article > h2 {
+    font-weight: normal;
+    font-size: 250%;
+}
+
+.tightInfo {
+    margin-left: 40px;
+}
+
+
+#info1 {
+    background-color: orange;
+}
+
+#info2 {
+    background-color: orangered;
+}
+
+#info3 {
+    background-color: darkcyan;
+    color: white;
+}
+
+#info4 {
+    background-color: slateblue;
+    color: white;
+}
+
+#info5 {
+    background-color: darkgrey;
+    color: white;
+}
+
+#info6 > div > img {
+    width: 480px;
+    height: 130px;
+}
+
+#info6 > div {
+    height: 130px;
+}
+
+#info1 > div > a,
+#info2 > div > a {
+    color: black;
+}
+
+#info3 > div > a,
+#info4 > div > a,
+#info5 > div > a {
+    color: white;
+}
+
+#banner {
+    float: left;
+    width: clac(100% - 1260px);
+    height: 780px;
+    background-color: chartreuse;
+}
+
+#notice > section {
+    width: clac(50%-41px);
+    height: 90px;
+    padding: 20px 0;
+    float: left;
+}
+
+#notice > section > div {
+    float: left;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 140%;
+}
+
+#notice > section > ul {
+    list-style-type: none;
+    float: left;
+}
+
+#notice > section > ul > li {
+    font-size: 110%;
+    margin-bottom: 5px;
+}
+
+#notice1,
+#notice3 {
+    border-right: 1px solid gray;
+}
+
+#notice1,
+#notice2 {
+    border-bottom: 1px solid gray;
+}
+
+#footerLeft {
+    float: left;
+}
+
+#footerRight {
+    float: right;
 }

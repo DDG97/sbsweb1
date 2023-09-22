@@ -1,40 +1,140 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../230915/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../230915/css/style.css" />
+    </head>
+    <body>
     <div id="container">
         <header>
-            <img src="../230915/img/스크린샷 2023-09-15 오후 12.29.46.png" alt="로고" class="Logo">
-                <input type="search" id="search">
-                <img src="" alt="검색버튼" class="searchb">
+        <div id="logo">
+            <img id="logoImg" src="img/logo.png" alt="국립국어원 로고" />
+        </div>
+        <div id="search">
+            <div id="searchBox">
+            <input id="searchInput" type="search" placeholder="검색어를 입력하세요" />
+            <img id="searchImg" src="img/search.png" alt="검색하기" />
+            </div>
+        </div>
+        <div id="sub">
+            <span id="hamburger">≡</span>
+            <span class="subText">ENGLISH</span>
+            <span class="subText">누리집 안내 지도</span>
+            <span>- +</span>
+        </div>
         </header>
         <main>
-            <article>
-                <ul>
-                    <li style="list-style: none;">1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                    <li>6</li>
-                    <li>7</li>
-                    <li>8</li>
-                </ul>
+        <aside>
+            <nav>
+            <ul>
+                <li>지식</li>
+                <li>개선</li>
+                <li>교육</li>
+                <li>수어/점자</li>
+                <li>참여</li>
+                <li>알림</li>
+                <li>자료</li>
+                <li>소개</li>
+            </ul>
+            </nav>
+        </aside>
+        <section id="banner">
+            <img src="" alt="">
+        </section>
+        <section id="info">
+            <br style="clear: both; display: none;">
+            <article id="info1">
+                <h2>사전</h2>
+                <div>
+                    <a href="#" class="floatLeft">우리말샘</a>
+                    <a href="#" class="rightInfo floatLeft">표준국어대사전</a>
+                    <a href="#" class="floatLeft">한국어기초사전</a>
+                    <a href="#" class="rightInfo floatLeft">한국수어사전</a>
+                </div>
             </article>
-            
-            <article>
-                <nav></nav>
-                <nav></nav>
-                <nav></nav>
-                <nav></nav>
+            <article id="info2">
+                <h2>국어 <span class="bold">상담</span></h2>
+                <div>
+                    <a href="#" class="floatLeft">온라인상담<sub>(온라인가나다)</sub></a>
+                    <a href="#" class="floatLeft rightInfo">
+                        전화상담 (가나다전화)</br>
+                    <span class="bold">1599-9979</span>
+                    </a>
+                </div>
             </article>
+            <article id="info3">
+                <h2>어문 <span class="bold">규범</span></h2>
+                <a href="#">어문 규정 보기</a>
+                <a href="#" class="twoInfo">용례 찾기</a>
+            </article>
+            <article id="info4">
+                <h2>공공언어 개선</h2>
+                <a href="#">다듬는 말</a>
+                <a href="#" class="rightInfo">공공언어 감수</a>
+                <a href="#">공공용어 번역</a>
+                <a href="#" class="rightInfo">표준 전문용어</a>
+            </article>
+            <article id="info5">
+                <h2>교육</h2>
+                <a href="#">국어문화학교</a>
+                <a href="#">한국어교원 자격</a>
+            </article>
+            <article id="info6" style="padding: 0;">
+                <div>
+                    <img src="../230828/img/스크린샷 2023-08-28 오전 11.38.14.png" alt="배너 1">
+                </div>
+                <div>
+                    <img src="../230828/img/스크린샷 2023-08-28 오전 11.37.36.png" alt="배너 2">
+                </div>
+            </article>
+        </section>
+        <div id="notice" style="clear: both;">
+            <section id="notice1">
+            <div>공지 사항</div>
+            <ul>
+                <li>[채용] 국립국어원 어문연구과</li>
+                <li>[알림] '2023년 한국수어 활용 조사'</li>
+                <li>[채용] 국립국어원 한국어진흥과</li>
+            </ul>
+            </section>
+            <section id="notice2">
+            <div>공지 사항</div>
+            <ul>
+                <li>[채용] 국립국어원 어문연구과</li>
+                <li>[알림] '2023년 한국수어 활용 조사'</li>
+                <li>[채용] 국립국어원 한국어진흥과</li>
+            </ul>
+            </section>
+            <section id="notice3">
+            <div>공지 사항</div>
+            <ul>
+                <li>[채용] 국립국어원 어문연구과</li>
+                <li>[알림] '2023년 한국수어 활용 조사'</li>
+                <li>[채용] 국립국어원 한국어진흥과</li>
+            </ul>
+            </section>
+            <section id="notice4">
+            <div>공지 사항</div>
+            <ul>
+                <li>[채용] 국립국어원 어문연구과</li>
+                <li>[알림] '2023년 한국수어 활용 조사'</li>
+                <li>[채용] 국립국어원 한국어진흥과</li>
+            </ul>
+            </section>
+        </div>
         </main>
-        <footer></footer>
+        <footer>
+        <div id="footerLeft">
+            <div id="tos"></div>
+            <div id="address"></div>
+        </div>
+        <div id="footerRight">
+            <div id="sns"></div>
+            <div id="badge"></div>
+        </div>
+        </footer>
     </div>
-</body>
+    </body>
 </html>

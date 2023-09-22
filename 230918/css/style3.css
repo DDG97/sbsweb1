@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li {
+    display: none;
+    margin-left: 20px;
+}
+
+ul:hover > li {
+    display: block;
+}
+
+#wrap {
+    display: flex;
+}
+
+@media screen and (min-width: 768px) {
+    #wrap {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #wrap {
+        flex-direction: column;
+    }
+}
