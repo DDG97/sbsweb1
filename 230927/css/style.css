@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#box1 > .element {
+    float: left;
+    width: 300px;
+    height: 200px;
+    shape-outside: circle(50%);
+}
+
+#box2 > .element {
+    float: left;
+    width: 300px;
+    height: 300px;
+    shape-outside: ellipse(100px 200px at 50% 50%);
+}
+
+#box3 > .element {
+    float: left;
+    width: 300px;
+    shape-outside: url(../image/big-transparent-red-sphere-with-shadow-on-transparent-background-transparency-only-in-vector-file_444390-9326.avif);
+    shape-image-threshold: 0.5;
+}
+
+
+#box4 > .element {
+    float:left;
+    width: 300px;
+    height: 200px;
+    shape-outside: polygon(0px 0px, 100px 200px, 300px 200px);
+}
+
+#box5 > .element {
+    float: left;
+    width: 270px;
+    height: 250px;
+    shape-outside: polygon(0px 100px, 50px 250px, 200px 250px, 250px 100px, 125px 60px);
+    shape-margin: 50px;
+}
+
+#box6 > .element {
+    float: left;
+    width: 300px;
+    height: 300px;
+    shape-outside: polygon(0px 50px, 0px 150px, 100px 200px, 200px 150px, 200px 50px, 100px 0px);
+    
+}
