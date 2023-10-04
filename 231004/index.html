@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../231004/css/style.css">
+    <link rel="stylesheet" href="../231004/css/style2.css">
+    <link rel="stylesheet" href="../231004/css/style3.css">
+    <link rel="stylesheet" href="../231004/css/style4.css">
+    <link rel="stylesheet" href="../231004/css/style5.css">
+    <link rel="stylesheet" href="../231004/css/style6.css">
+    <link rel="stylesheet" href="../231004/css/style7.css">
+    <link rel="stylesheet" href="../231004/css/style8.css">
+    <style> 
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: black;
+    }
+
+    .icon {
+        margin: 20px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="icon nav-icon-1">
+        <span style="--hc: 0; --vc: 0"></span>
+        <span style="--hc: 1; --vc: 0"></span>
+        <span style="--hc: 2; --vc: 0"></span>
+        <span style="--hc: 0; --vc: 1"></span>
+        <span style="--hc: 1; --vc: 1"></span>
+        <span style="--hc: 2; --vc: 1"></span>
+        <span style="--hc: 0; --vc: 2"></span>
+        <span style="--hc: 1; --vc: 2"></span>
+        <span style="--hc: 2; --vc: 2"></span>
+    </div>
+
+    <div class="icon nav-icon-2">
+        <span style="--hc: 0; --vc: 0"></span>
+        <span style="--hc: 1; --vc: 0"></span>
+        <span style="--hc: 2; --vc: 0"></span>
+        <span style="--hc: 0; --vc: 1"></span>
+        <span style="--hc: 1; --vc: 1"></span>
+        <span style="--hc: 2; --vc: 1"></span>
+        <span style="--hc: 0; --vc: 2"></span>
+        <span style="--hc: 1; --vc: 2"></span>
+        <span style="--hc: 2; --vc: 2"></span>
+    </div>
+
+    <div class="icon nav-icon-3">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="icon nav-icon-4">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="icon nav-icon-5">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="icon nav-icon-6">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="icon nav-icon-7">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="icon nav-icon-8">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <script>
+        const icons = document.querySelectorAll(".icon");
+        icons.forEach(icon => {
+            icon.addEventListener("click", (event) => {
+                icon.classList.toggle("open");
+            });
+        });
+    </script>
+</body>
+</html>
